@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact Me</title>
+    </head>
+    <body>
+        <h1>My Contact Details</h1>
+        <h3><strong>Address</strong>: Putra Heights</h3>
+        <h3><strong>Phone</strong>: -</h3>
+        <h3>Email: hooibryan@gmail.com</h3>
+        <h3><a href="https://www.facebook.com/bryanhooi.yuern/" target="_blank">Facebook</a></h3>
+        <h3><a href="https://www.instagram.com/bryanbhye/?hl=en" target="_blank">Instagram</a></h3>
+        <h3><a href="https://github.com/bryanhooi" target="_blank">GitHub</a></h3>
+        <h3><a href="https://www.linkedin.com/in/bryan-hooi-yu-ern/" target="_blank">LinkedIn</a></h3>
+        <h3><a href="https://bryanhooi.github.io/personal-portfolio/" target="_blank">Portfolio</a></h3>
+        <hr>
+        <form action="mailto:hooibryan#gmail.com" method="post" enctype="text/plain">
+            <fieldset>
+                <legend><h4>Send Me A Message 😁</h4></legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label>Name:</label>
+                        </td>
+                        <td>
+                            <input type="text" name="name" id="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Age:</label>
+                        </td>
+                        <td>
+                            <input type="number" name="age" value="10" min="10" max="99">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Email:</label>
+                        </td>
+                        <td>
+                            <input type="email" name="email" value="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Gender:</label>
+                        </td>
+                        <td>
+                            <label>Male</label><input type="radio" name="gender" id="male" value="male">
+                            <label>Female</label><input type="radio" name="gender" id="female" value="female">
+                            <label>Other</label><input type="radio" name="gender" id="other" value="other">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Date:</label>
+                        </td>
+                        <td>
+                            <input type="date" name="send-date" value="2022-01-22">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Upload Your CV:</label>
+                        </td>
+                        <td>
+                            <input type="file" name="cv-file" accept="application/msword, application/pdf" multiple="true">
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <label>Message:</label><br>
+                <textarea name="message" rows="10" cols="30" placeholder="Type Your Message Here..."></textarea>
+                <br>
+                <input type="submit" name="" value="Send">
+            </fieldset>
+        </form>
+    </body>
+</html>
